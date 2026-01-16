@@ -5,8 +5,8 @@
 ## 1. Clone and Push to Your GitHub
 
 ```bash
-git clone https://github.com/SolaceDev/solace-agent-mesh-quickstart.git
-cd solace-agent-mesh-quickstart
+git clone https://github.com/SolaceDev/solace-agent-mesh-hackathon-quickstart.git
+cd solace-agent-mesh-hackathon-quickstart
 ```
 
 Create a new repository in your GitHub account, then push:

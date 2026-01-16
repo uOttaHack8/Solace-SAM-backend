@@ -57,7 +57,7 @@ Antigravity automatically reads `GEMINI.md` for project context. MCP config is g
 npm install -g @google/gemini-cli
 
 # Navigate to project and start
-cd solace-agent-mesh-quickstart
+cd solace-agent-mesh-hackathon-quickstart
 gemini
 ```
 
@@ -68,7 +68,7 @@ Gemini CLI automatically loads `GEMINI.md` for project context and `.gemini/sett
 Install from [code.claude.com](https://code.claude.com/docs/en/setup#installation), then:
 
 ```bash
-cd solace-agent-mesh-quickstart
+cd solace-agent-mesh-hackathon-quickstart
 claude
 ```
 

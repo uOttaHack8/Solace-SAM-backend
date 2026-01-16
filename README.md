@@ -1,6 +1,6 @@
-# Solace Agent Mesh Quickstart
+# Solace Agent Mesh Hackathon Quickstart
 
-A quickstart template for building and deploying [Solace Agent Mesh](https://github.com/SolaceLabs/solace-agent-mesh) (SAM) applications with custom agents.
+A hackathon quickstart template for building and deploying [Solace Agent Mesh](https://github.com/SolaceLabs/solace-agent-mesh) (SAM) applications with custom agents.
 
 ## Getting Started
 

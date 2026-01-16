@@ -10,8 +10,8 @@ Run SAM locally using the `sam` CLI. This guide uses [uv](https://docs.astral.sh
 ## 1. Clone and Configure
 
 ```bash
-git clone https://github.com/SolaceDev/solace-agent-mesh-quickstart.git
-cd solace-agent-mesh-quickstart
+git clone https://github.com/SolaceDev/solace-agent-mesh-hackathon-quickstart.git
+cd solace-agent-mesh-hackathon-quickstart
 
 # Create environment file
 cp .env.example .env

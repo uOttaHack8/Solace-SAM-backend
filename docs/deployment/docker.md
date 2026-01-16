@@ -10,8 +10,8 @@ Run SAM locally using Docker. This uses the same Dockerfile as Railway, so your 
 ## 1. Clone and Configure
 
 ```bash
-git clone https://github.com/SolaceDev/solace-agent-mesh-quickstart.git
-cd solace-agent-mesh-quickstart
+git clone https://github.com/SolaceDev/solace-agent-mesh-hackathon-quickstart.git
+cd solace-agent-mesh-hackathon-quickstart
 
 # Create environment file
 cp .env.example .env
@@ -30,7 +30,7 @@ SOLACE_DEV_MODE=true
 ## 2. Build
 
 ```bash
-docker build -t sam-quickstart .
+docker build -t sam-hackathon-quickstart .
 ```
 
 This copies your `configs/` and `src/` into the SAM base image and installs any additional dependencies from `pyproject.toml`.
@@ -38,7 +38,7 @@ This copies your `configs/` and `src/` into the SAM base image and installs any 
 ## 3. Run
 
 ```bash
-docker run --rm -it -p 8000:8000 --env-file .env sam-quickstart
+docker run --rm -it -p 8000:8000 --env-file .env sam-hackathon-quickstart
 ```
 
 ## 4. Access
@@ -51,10 +51,10 @@ After modifying agents in `configs/` or tools in `src/`:
 
 ```bash
 # Rebuild (fast)
-docker build -t sam-quickstart .
+docker build -t sam-hackathon-quickstart .
 
 # Run again
-docker run --rm -it -p 8000:8000 --env-file .env sam-quickstart
+docker run --rm -it -p 8000:8000 --env-file .env sam-hackathon-quickstart
 ```
 
 ## Optional: Persistent Storage

@@ -1,7 +1,7 @@
 [project]
-name = "sam-quickstart"
+name = "sam-hackathon-quickstart"
 version = "0.1.0"
-description = "Solace Agent Mesh quickstart template for hackathons"
+description = "Solace Agent Mesh hackathon quickstart template"
 requires-python = "==3.11.*"
 dependencies = [
     "solace-agent-mesh==1.13.3",
